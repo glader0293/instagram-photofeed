@@ -5,3 +5,9 @@
 .border-color{
     border-color:rgba(221, 220, 220, 0.93)
 }
+
+.img-fixed {
+    width: 100%;  /* Make it responsive */
+    height: 400px; /* Set a fixed height */
+    object-fit: cover; /* Crop the image */
+  }
